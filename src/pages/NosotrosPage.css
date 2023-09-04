@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.divText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+}
+
+.divText {
+  margin-top: 40px;
+}
+
+.divText p {
+  max-width: 50rem;
+
+}
+
+.divText h1 {
+  font-weight: 700;
+}
+
+.divText h3 {
+  font-weight: 400;
+  font-style: oblique;
+  color: rgb(205, 97, 19);
+}
+
+.container {
+  display: flex;
+  width: 90vw;
+  margin-bottom: 40px;
+}
+
+.panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+
+  background-image: url("https://res.cloudinary.com/djae49wbg/image/upload/q_auto:low/v1691020152/nosotros_2-min_vxz2no.png");
+}
+
+.panel2 {
+  background-image: url("https://res.cloudinary.com/djae49wbg/image/upload/q_auto:low/v1691020152/nosotros_5-min_n5amgw.jpg");
+}
+
+.panel3 {
+  background-image: url("https://res.cloudinary.com/djae49wbg/image/upload/q_auto:low/v1691020152/nosotros_3-min_ybzudr.jpg");
+}
+
+.panel4 {
+  background-image: url("https://res.cloudinary.com/djae49wbg/image/upload/q_auto:low/v1691020152/nosotros_4-min_irbinv.jpg");
+}
+
+.panel5 {
+  background-image: url("https://res.cloudinary.com/djae49wbg/image/upload/q_auto:low/v1691020152/nosotros1-min_wstkvk.jpg");
+}
+
+.panel.active {
+  flex: 5;
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100vw;
+  }
+
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+    display: none;
+  }
+}

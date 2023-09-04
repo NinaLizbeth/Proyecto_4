@@ -1,0 +1,17 @@
+.carousel-caption.d-none.d-md-block {
+    margin-bottom: 400px;
+    background-color: rgba(248, 244, 244, 0.224);
+}
+
+.carousel-caption.d-none.d-md-block h1 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+.carousel-caption.d-none.d-md-block p {
+    font-size: 30px;
+  
+ 
+}
+
+
+

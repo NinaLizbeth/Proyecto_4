@@ -1,0 +1,10 @@
+.background{
+    content: "";
+    background-image: url(/assets/imges/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+

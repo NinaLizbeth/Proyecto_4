@@ -1,0 +1,25 @@
+.form.form-control{
+display: flex;
+flex-direction: column;
+justify-content:center;
+gap: 10px;
+align-items: center;
+max-width: 600px;
+margin:50px auto;
+min-height: 500px;
+}
+
+.form{
+    border:  solid rgba(80, 164, 15, 0.319);
+}
+
+
+h2{
+    margin: 0px;
+}
+
+.btn{
+    background-color:rgb(11, 11, 11);
+    color: antiquewhite;
+}
+

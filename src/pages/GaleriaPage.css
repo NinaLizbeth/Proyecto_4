@@ -1,0 +1,62 @@
+
+.grid-layout {
+  display: grid;
+ gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  width: 100%;
+  margin: 0;
+place-content: center;
+padding: 10%;
+
+
+}
+.caja {
+ 
+  width:230px;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  line-height: 150px;
+
+
+}
+
+.imagen {
+width:250px;
+height: 230px;
+}
+
+@media screen and (max-width: 700px) {
+h1{
+  font-size: 32px;
+}
+
+}
+
+::-webkit-scrollbar {
+  width: 20px; /* Ancho de la barra de desplazamiento */
+  height: 10px;
+}
+
+/* Cambiar el color del riel de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+  background-color: #f6f9f7; /* Color del riel */
+}
+
+/* Cambiar el color del pulgar (handle) de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+  background-color: #b7040489; /* Color del pulgar */
+  border-radius: 5px; /* Bordes redondeados para el pulgar */
+}
+
+/* Cambiar el color del pulgar (handle) de la barra de desplazamiento cuando el usuario esté interactuando con ella */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #c40808; /* Color del pulgar en hover */
+}
+
+
+
+
+
+
+
